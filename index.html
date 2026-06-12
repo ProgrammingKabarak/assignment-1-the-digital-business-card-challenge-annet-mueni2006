@@ -2,95 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Company Registration Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Business Card</title>
+    
 </head>
 <body>
+    <h1>Hello, I'm Annet 👋</h1>
 
-<h2>Company Registration Form</h2>
+    <p>
+        I am a student passionate about technology and web development. <br>
+        I enjoy learning how websites are built and improving my coding skills.
+    </p>
 
-<form method="post" action="#">
-    <fieldset>
-        <h1>Personal Information</h1>
+    <h2>My Interests</h2>
+    <ul>
+        <li>Web Development</li>
+        <li>Programming</li>
+        <li>Design</li>
+    </ul>
 
-        <label for="fullname">Full Name:</label><br>
-        <input type="text" id="fullname" name="fullname" required minlength="3" maxlength="50"><br><br>
+    <h2>My Profile</h2>
+    <img src="an 2.jpeg" alt="Profile picture of Annet" width="200">
 
-        <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+    <h2>Connect with Me</h2>
+    <p>
+        Visit my GitHub:
+        <a href="https://github.com/annet-mueni2006" target="_blank">My GitHub Profile</a>
+    </p>
 
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10,15}"><br><br>
-    </fieldset>
-
-    <fieldset>
-        <h1>Company Information</h1>
-
-        <label for="company">Company Name:</label><br>
-        <input type="text" id="company" name="company" required minlength="2" maxlength="100"><br><br>
-
-        <label for="website">Company Website:</label><br>
-        <input type="url" id="website" name="website" required><br><br>
-
-        <label for="size">Company Size:</label><br>
-        <select id="size" name="size" required>
-            <option value="">--Select--</option>
-            <option value="small">1-10 Employees</option>
-            <option value="medium">11-50 Employees</option>
-            <option value="large">51-200 Employees</option>
-            <option value="enterprise">200+ Employees</option>
-        </select><br><br>
-
-        <label for="industry">Industry:</label><br>
-        <input type="text" id="industry" name="industry" required><br><br>
-    </fieldset>
-
-    <fieldset>
-        <h1>Service Request</h1>
-
-        <label>Service Type:</label><br>
-        <input type="radio" id="consulting" name="service" value="consulting" required>
-        <label for="consulting">Consulting</label><br>
-
-        <input type="radio" id="development" name="service" value="development">
-        <label for="development">Development</label><br>
-
-        <input type="radio" id="support" name="service" value="support">
-        <label for="support">Support</label><br><br>
-
-        <label>Preferred Contact Method:</label><br>
-        <input type="checkbox" id="email_contact" name="contact[]" value="email">
-        <label for="email_contact">Email</label><br>
-
-        <input type="checkbox" id="phone_contact" name="contact[]" value="phone">
-        <label for="phone_contact">Phone</label><br>
-
-        <input type="checkbox" id="sms_contact" name="contact[]" value="sms">
-        <label for="sms_contact">SMS</label><br><br>
-
-        <label for="date">Appointment Date:</label><br>
-        <input type="date" id="date" name="date" required><br><br>
-
-        <label for="time">Appointment Time:</label><br>
-        <input type="time" id="time" name="time" required><br><br>
-
-        <label for="budget">Budget Range (KES):</label><br>
-        <input type="number" id="budget" name="budget" min="1000" max="1000000" required><br><br>
-    </fieldset>
-
-    <fieldset>
-        <h1>Message and Agreement</h1>
-
-        <label for="message">Additional Information:</label><br>
-        <textarea id="message" name="message" rows="4" cols="40" minlength="10" maxlength="300"></textarea><br><br>
-
-        <input type="checkbox" id="terms" name="terms" required>
-        <label for="terms">I agree to the Terms and Conditions</label><br><br>
-    </fieldset>
-
-    <input type="submit" value="Submit">
-    <input type="reset" value="Reset">
-
-</form>
+    <h2>Experience</h2>
+    <p>
+        I am currently learning HTML and building simple websites as part of my coursework.
+    </p>
 
 </body>
 </html>
